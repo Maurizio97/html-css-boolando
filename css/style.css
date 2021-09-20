@@ -33,6 +33,15 @@ section {
     position: relative;
 }
 
+.img-product:hover .hover {
+    display: block;
+}
+
+.hover {
+    /* z-index: 10; */
+    display: none;
+}
+
 .img-product img {
     position: relative;
     height: 100%;
@@ -100,11 +109,17 @@ section {
 }
 
 .text-product h2 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .price-now {
-    
+    color: red;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.price-original {
+    text-decoration: line-through;
 }
 
 /* /descrizione prodotto */
