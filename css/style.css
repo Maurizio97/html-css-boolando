@@ -38,7 +38,6 @@ section {
 }
 
 .hover {
-    /* z-index: 10; */
     display: none;
 }
 
@@ -88,7 +87,6 @@ section {
     padding: 3px;
     text-align: center;
     margin-right: 5px;
-    
 }
 
 .sustainability { 
